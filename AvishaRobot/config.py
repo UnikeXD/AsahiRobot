@@ -14,23 +14,23 @@ class Config(object):
    
     TOKEN = getenv("TOKEN", None)
   
-    OWNER_ID = getenv("OWNER_ID", "6195725562") 
+    OWNER_ID = getenv("OWNER_ID", "6794338943") 
 
-    OWNER_USERNAME = ("OWNER_USERNAME", "loco_x_Pilot")
+    OWNER_USERNAME = ("OWNER_USERNAME", "ashai_xo")
     
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "the_friendz")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Nerv_SUPPORTT")
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 
-    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002080453210")
+    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1001962647971")
    
-    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002080453210")
+    EVENT_LOGS = getenv("EVENT_LOGS",  "-1001962647971")
   
-    ERROR_LOGS = getenv("ERROR_LOGS", "-1001929735324")
+    ERROR_LOGS = getenv("ERROR_LOGS", "-1002298851924")
 
     MONGO_DB_URI= getenv("MONGO_DB_URI", None)
    
-    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1001852000392")
+    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002298851924")
    
     BOT_USERNAME = getenv("BOT_USERNAME" , "avishaBot")
    
@@ -42,7 +42,7 @@ class Config(object):
 
     SPAMWATCH_API = getenv("SPAMWATCH_API", "3624487efd8e4ca9c949f1ab99654ad1e4de854f41a14afd00f3ca82d808dc8c")
     
-    SPAMWATCH_SUPPORT_CHAT = getenv("SPAMWATCH_SUPPORT_CHAT", "h_cc_help")
+    SPAMWATCH_SUPPORT_CHAT = getenv("SPAMWATCH_SUPPORT_CHAT", "Nerv_SUPPORTT")
     
     WALL_API = getenv("WALL_API", "2455acab48f3a935a8e703e54e26d121")
     
